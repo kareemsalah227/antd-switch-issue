@@ -63,6 +63,7 @@ class App extends Component {
       <div className="App">
         <div>Open up your console and play with the switches</div>
         <div>Try commenting line 55 in src/App.js and uncommenting line 56 in same file to get the point</div>
+        <div>This same behavior happens also with Select</div>
         {switches}
       </div>
     );
