@@ -39,6 +39,7 @@ class App extends Component {
   handleSwitchChangeWithIndex(index, event) {
     console.log('This way, you can access whatever value that can be added on the switch as attributes');
     console.log(index, event);
+    console.log('But you can not use other logic like stopEventPropagation and so');
   }
 
   render() {
@@ -60,6 +61,8 @@ class App extends Component {
 
     return (
       <div className="App">
+        <div>Open up your console and play with the switches</div>
+        <div>Try commenting line 55 in src/App.js and uncommenting line 56 in same file to get the point</div>
         {switches}
       </div>
     );
